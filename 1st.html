@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Removing an Element</title>
+    <script>
+      function deleteParagraph(){
+        document.getElementById("deleteMe").remove();
+      }
+    </script>
+  </head>
+  <body>
+    <p id="deleteMe" onclick="deleteParagraph()">Click to delete me.</p>
+    <p>I'm here to stay.</p>
+  </body>
+</html>
